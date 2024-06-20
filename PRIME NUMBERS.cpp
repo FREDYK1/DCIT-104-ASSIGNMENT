@@ -17,7 +17,7 @@ bool isPrime(int num) {
         return false;
     }
     //Check all odd numbers and see if it is a prime.
-    for 5(int i = 3; i <= sqrt(num); i += 2) {
+    for (int i = 3; i <= sqrt(num); i += 2) {
         if (num % i == 0) {
             return false;
         }
